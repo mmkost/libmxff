@@ -13,7 +13,7 @@ t_list *mx_sort_list(t_list *lst, bool (*cmp)(void *,void *)) {
             }
             step = step->next;
         }
-        swap_list(&start->data, &min->data);
+        mx_swap_list(&start->data, &min->data);
         start = start->next;
     }
     return lst;
