@@ -1,5 +1,11 @@
 #include "libmx.h"
 
+void mx_swap_list(void **first, void **second) {
+    void *temp = *first;
+    *first = *second;
+    *second = temp;
+}
+
 t_list *mx_sort_list(t_list *lst, bool (*cmp)(void *,void *)) {
     t_list *start = lst;
     t_list *step;

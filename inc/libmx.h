@@ -73,7 +73,6 @@ int mx_list_size(t_list *list);
 t_list *mx_sort_list(t_list *lst, bool (*cmp)(void *, void *));
 //MY
 bool mx_isspace(char c);
-void mx_swap_list(void **first, void **second);
 int mx_factorial_iter(int n);
 void mx_sort_arr_int(int *arr, int size);
 int mx_strlen_upgr(const char *s, char c);

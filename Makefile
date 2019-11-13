@@ -62,7 +62,6 @@ SRC = ./mx_printchar.c \
 ./mx_sort_list.c \
 \
 ./mx_isspace.c \
-./mx_swap_list.c \
 ./mx_factorial_iter.c \
 ./mx_sort_arr_int.c \
 ./mx_strlen_upgr.c \
@@ -126,7 +125,6 @@ SRCS = ./src/mx_printchar.c \
 ./src/mx_sort_list.c \
 \
 ./src/mx_isspace.c \
-./src/mx_swap_list.c \
 ./src/mx_factorial_iter.c \
 ./src/mx_sort_arr_int.c \
 ./src/mx_strlen_upgr.c \
@@ -190,7 +188,6 @@ OBJ = ./mx_printchar.o \
 ./mx_sort_list.o \
 \
 ./mx_isspace.o \
-./mx_swap_list.o \
 ./mx_factorial_iter.o \
 ./mx_sort_arr_int.o \
 ./mx_strlen_upgr.o
@@ -254,7 +251,6 @@ OBJO = ./obj/mx_printchar.o \
 ./obj/mx_sort_list.o \
 \
 ./obj/mx_isspace.o \
-./obj/mx_swap_list.o \
 ./obj/mx_factorial_iter.o \
 ./obj/mx_sort_arr_int.o \
 ./obj/mx_strlen_upgr.o \
